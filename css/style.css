@@ -481,6 +481,13 @@ img:nth-child(5) {
     background-color: white;
     border-radius: 10px;
 }
+.tarjetas {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    overflow: hidden;
+}
 .payment img {
     height: 50px;
 }
